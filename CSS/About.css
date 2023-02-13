@@ -1,0 +1,48 @@
+.about-container h1 {
+    color: red;
+}
+
+.about-container {
+    background-color: #dddddd;
+    position: relative;
+    top: 50px;
+    overflow: auto;
+    height: 100%;
+    margin: 50px;
+}
+.about-container div{
+    position: center;
+    background-color: #dddddd;
+    border: 1px solid red;
+    height: 100%;
+    border-radius: 5px;
+    overflow: auto;
+    padding: 50px;
+    width: 40%;
+    float: left;
+    text-align: center;
+    font-size: 17px;
+    margin: auto 10px;
+}
+.about-container div a {
+    position: relative;
+    top: 0;
+    padding: 10px;
+    background-color: rgba(255, 0, 0, 0.85);
+    color: #f2f2f2;
+    border: 2px solid red;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.about-stats div {
+    float: left;
+    padding: 25px;
+    margin: 50px auto;
+
+}
+.about-stats h1, h3{
+    text-align: center;
+    color: #faeded;
+}
